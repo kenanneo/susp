@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #f0f0f0;
+    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
     color: #333;
 }
 
 header {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
     color: white;
     padding: 50px 0;
 }
@@ -58,18 +58,19 @@ section {
 
 .social-links a img {
     width: 50px;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .social-links a img:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 footer {
     background-color: #333;
     color: white;
     padding: 20px 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
